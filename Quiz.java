@@ -22,6 +22,7 @@ public class Quiz {
                     System.out.println("Congrats!!!");
                 }
             } while (!success);
+
             System.out.print("Do you want to retry the game? (y/n): ");
             menu = input.nextLine().charAt(0);
         } while (menu == 'y' || menu == 'Y');
